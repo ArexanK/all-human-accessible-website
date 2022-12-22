@@ -65,9 +65,10 @@ body {
 .nav-link {
     list-style: none;
     float: center;
-    margin-left: 60px;
+    margin-left: 40px;
     border-bottom: 2px solid rgb(66, 65, 65);
-    width: 7rem;
+    width: 5rem;
+    justify-content: space-between;
 
 
     text-decoration: none;
@@ -466,13 +467,7 @@ button {
         padding: 0 40px;
     }
 
-    .nav-links {
-        height: auto;
-        text-align: center;
 
-
-
-    }
 
     ul {
         text-align: center;
@@ -499,6 +494,8 @@ button {
         background: rgb (220, 220, 220);
         padding: 8px 15px;
         border-radius: 4px;
+        height: auto;
+        text-align: center;
 
     }
 
