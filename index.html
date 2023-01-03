@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>new</title>
     <link rel="stylesheet" href="styles/new.css" />
-   
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
     <script src="scripts/new.js" defer></script>
   </head>
 
@@ -14,248 +18,248 @@
     <div class="navbar">
       <div class="container flex-nav">
         <div class="nav-header">
-            <div class="logo"><img src="styles/images/oba_logo_kort_roodh.jpeg" alt="oba logo"></div>
-            <br>
-            <p class="subtitle1">mijn oba profiel</p>
-            <br>
+          <div class="logo">
+            <img src="styles/images/oba_logo_kort_roodh.jpeg" alt="oba logo" />
+          </div>
+
+          <p class="subtitle1">mijn oba profiel</p>
+
           <p class="subtitle2">welkom [naam lid]</p>
           <div class="header-container">
-
             <button class="nav-toggle" id="navToggle">
-                <i class="fas fa-bars"></i> </button>
-              <br><br>
+              <i class="fas fa-bars"></i>
+            </button>
+
             <nav class="nav-links" id="nav-links">
-                
-      
               <ul>
-               
                 <li class="nav-link"><a href="#">mijn gegevens</a></li>
-                <li class="nav-link"><a href="vragenlijst.html">vragenlijst</a></li>
+                <li class="nav-link">
+                  <a href="vragenlijst.html">vragenlijst</a>
+                </li>
                 <li class="nav-link"><a href="#">verlengen</a></li>
                 <li class="nav-link"><a href="#">leeromgeving</a></li>
                 <li class="nav-link">
                   <a href="#">reserveren</a>
-                 
                 </li>
-                <li class="nav-link"><a href="#">studieruimte reserveren</a></li>
+                <li class="nav-link">
+                  <a href="#">studieruimte reserveren</a>
+                </li>
                 <li class="nav-link">
                   <a href="#">e-boeken luisterboeken</a>
                 </li>
                 <li class="nav-link">
-                  <a href="#">uitloggen</a>
+                  <a href="login.html">uitloggen</a>
                 </li>
-             
               </ul>
-              
             </nav>
-       
-           
-
-</div>
           </div>
         </div>
       </div>
+    </div>
 
-      <br>
-      
-      <!--search bar-->
-      <div class="search-box">
+    <br />
+
+    <!--search bar-->
+    <!--<div class="search-box">
         <i class="bx bx-search"></i>
         <input type="text" placeholder="zoek " />
-      </div>
+        <img src="images/zoek.jpeg" alt="Search icon" id="search-icon">
+      </div>-->
+
+    <div id="search-container">
+      <input type="text" id="search-bar" placeholder="zoek..." />
+      <img
+        src="images/search-icon-png-9969.png"
+        alt="Search icon"
+        id="search-icon"
+      />
     </div>
 
     <!--end search bar-->
 
-
-
     <!--start slider recente activiteiten-->
-    
-    
 
+    <!--<div class="slider">
+      <div class="slider-inner">
+        <img src="styles/images/theater.jpeg" alt="theater" />
 
-    <div class="slider">
-        <div class="slider-inner">
+        <img src="styles/images/activiteiten.jpeg" alt="activiteiten" />
+
+        <img src="styles/images/events.jpeg" alt="events" />
+
+        <img src="styles/images/krant.png" alt="krant" />
+
+        <img src="styles/images/e book.jpeg" alt="eboek" />
+
+        <img src="styles/images/theater.jpeg" alt="lessen" />
+      </div>
+
+      <div class="icon-container">
+        <button class="slider-button slide-prev"><
           
-          <img src="styles/images/theater.jpeg" alt="theater" />
-         
-       
-
-          <img src="styles/images/activiteiten.jpeg" alt="activiteiten" />
+        </button>
+        <button class="slider-button slide-next">>
+        
           
-
-
-          <img src="styles/images/events.jpeg" alt="events" />
-          
-
-          <img src="styles/images/krant.png" alt="krant" />
-          
-
-          <img src="styles/images/e book.jpeg" alt="eboek" />
-       
-
-          <img src="styles/images/theater.jpeg" alt="lessen" />
-       
-
-        </div>
-        <button class="slider-prev"><</button>
-        <button class="slider-next">></button>
+        </button>
       </div>
-
-    <!--start page responsive cards gelezen boeken-->
-
-    <br />
-    <br />
-  
- 
-
-  <div class="flex-container">
-    <div class="flex-box">Box 1</div>
-    </div>
-
-    <div class="flex-container">
-    <div class="flex-box">Box 2</div>
-    </div>
-    
-    <div class="flex-container">
-    <div class="flex-box">Box 3</div>
-  </div>
-
-
-  <br>
-  <br>
-
-  <h2 class="gelezen">gelezen boeken</h2>
-    <div class="card-container">
-    
-      <div class="card">
-        <div class="imageBx">
-          <img src="images/coelho boek.jpeg" alt="book" />
+      </div>-->
+<h1>aanbevolen activiteiten</h1>
+      <div class="container">
+        <div class="box">
+          <img src="images/les foto.jpeg" alt="image1">
+          <a href="https://www.oba.nl/cursus.html"><button>Cursus nepnieuws </button></a>
         </div>
-        <br />
-        <br />
-        <div class="content">
-          <h2>The Alchemist </h2>
-          <p>Ayoung shepherd living in the hills of Andalucia </p>
-          <button type="button">opnieuw reserveren</button>
+        <div class="box">
+          <img src="images/budget.jpeg" alt="image2">
+          <a href="https://www.oba.nl/OBA-helpt/hulp-bij-geldzaken.html"><button>Budgetteren</button></a>
         </div>
-      </div>
-     
-    <br />
-    <br />
-
-    
-      <div class="card">
-        <div class="imageBx">
-          <img src="images/boek atomic habits.jpeg" alt="book" />
-        </div>
-        <br />
-        <br />
-        <div class="content">
-          <h2>Atomic Habits</h2>
-          <p>Real change comes from the compound effect of small decisions</p>
-          <button type="button">opnieuw reserveren</button>
-        </div>
-      </div>
-    
-    <br />
-    <br />
-
-    <div class="card">
-        <div class="imageBx">
-          <img src="images/the mountain boek.jpeg" alt="book" />
-        </div>
-        <br />
-        <br />
-        <div class="content">
-          <h2>The mountain is You</h2>
-          <p>This is a book about self-sabotage. Why we do it</p>
-          <button type="button">opnieuw reserveren</button>
-        </div>
-      </div>
-      <br>
-      <br>
-    
-
-
-      <div class="card">
-        <div class="imageBx">
-          <img src="images/boek kijk ons .jpeg" alt="book" />
-        </div>
-        <br />
-        <br />
-        <div class="content">
-          <h2>Kijk ons dansen</h2>
-          <p>De eerste vrouwelijke gynaecoloog van Marokko</p>
-          <button type="button">opnieuw reserveren</button>
+        <div class="box">
+          <img src="images/studio.jpeg" alt="image3">
+          <a href="https://www.youtube.com/playlist?list=PL34JxPnBsdqRHFB0CxVViH8JVOUMX1YPY"><button>Oba studio</button></a>
         </div>
       </div>
 
-      <br>
-      <br>
 
-
-
-<!--extra boeken rij-->
-<div class="card">
-    <div class="imageBx">
-      <img src="images/boek zou niet zeggen.jpeg" alt="book" />
-    </div>
-    <br />
-    <br />
-    <div class="content">
-      <h2>Je zou niet zeggen dat je ziek bent</h2>
-      <p>Ze blijft kiezen voor het leven en straalt dat uit </p>
       
-      
-      <button type="button">opnieuw reserveren</button>
-      
-    </div>
-  </div>
 
-  <br>
-  <br>
 
-  <div class="card">
-    <div class="imageBx">
-      <img src="images/boek niet zeggen.jpeg" alt="book" />
+
+      <!--start page responsive cards gelezen boeken-->
+
+      <br />
+      <br />
+
+      <div class="activiteiten-section">
+        <h1>recente activiteiten</h1>
+        <div class="flex-container">
+          <div class="flex-box">Box 1</div>
+        </div>
+
+        <div class="flex-container">
+          <div class="flex-box">Box 2</div>
+        </div>
+
+        <div class="flex-container">
+          <div class="flex-box">Box 3</div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div class="gelezen-section">
+        <h1>gelezen boeken</h1>
+        <div class="card-container">
+          <div class="card">
+            <div class="imageBx">
+              <img src="images/coelho boek.jpeg" alt="book" />
+            </div>
+            <br />
+            <br />
+            <div class="content">
+              <h2>The Alchemist</h2>
+              <p>Ayoung shepherd living in the hills of Andalucia</p>
+              <button type="button">opnieuw reserveren</button>
+            </div>
+          </div>
+
+          <br />
+          <br />
+
+          <div class="card">
+            <div class="imageBx">
+              <img src="images/boek atomic habits.jpeg" alt="book" />
+            </div>
+            <br />
+            <br />
+            <div class="content">
+              <h2>Atomic Habits</h2>
+              <p>
+                Real change comes from the compound effect of small decisions
+              </p>
+              <button type="button">opnieuw reserveren</button>
+            </div>
+          </div>
+
+          <br />
+          <br />
+
+          <div class="card">
+            <div class="imageBx">
+              <img src="images/the mountain boek.jpeg" alt="book" />
+            </div>
+            <br />
+            <br />
+            <div class="content">
+              <h2>The mountain is You</h2>
+              <p>This is a book about self-sabotage. Why we do it</p>
+              <button type="button">opnieuw reserveren</button>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <div class="card">
+            <div class="imageBx">
+              <img src="images/boek kijk ons .jpeg" alt="book" />
+            </div>
+            <br />
+            <br />
+            <div class="content">
+              <h2>Kijk ons dansen</h2>
+              <p>De eerste vrouwelijke gynaecoloog van Marokko</p>
+              <button type="button">opnieuw reserveren</button>
+            </div>
+          </div>
+
+          <br />
+          <br />
+
+          <!--extra boeken rij-->
+          <div class="card">
+            <div class="imageBx">
+              <img src="images/boek zou niet zeggen.jpeg" alt="book" />
+            </div>
+            <br />
+            <br />
+            <div class="content">
+              <h2>Je zou niet zeggen dat je ziek bent</h2>
+              <p>Ze blijft kiezen voor het leven en straalt dat uit</p>
+
+              <button type="button">opnieuw reserveren</button>
+            </div>
+          </div>
+
+          <br />
+          <br />
+
+          <div class="card">
+            <div class="imageBx">
+              <img src="images/boek niet zeggen.jpeg" alt="book" />
+            </div>
+            <br />
+            <br />
+            <div class="content">
+              <h2>Niet zeggen maar doen</h2>
+              <p>Stop met leuteren en er gewoon voor te gaan</p>
+
+              <button type="button">opnieuw reserveren</button>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <br />
+      </div>
     </div>
+
     <br />
     <br />
-    <div class="content">
-      <h2>Niet zeggen maar doen</h2>
-      <p>Stop met leuteren en er gewoon voor te gaan</p>
-     
-      
-      <button type="button">opnieuw reserveren</button>
-    </div>
-  </div>
-
-  <br>
-  <br>
-
-  
-
-
-
-
-
-</div>
-</div>
-
-<br>
-<br>
     <!--end responsive cards-->
 
-<!--recente activiteiten-->
-
-
-
-
-
-
-
-
-
+    <!--recente activiteiten-->
   </body>
 </html>
