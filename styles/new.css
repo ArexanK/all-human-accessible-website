@@ -453,6 +453,95 @@ button {
 }
 
 
+
+/*footer*/
+
+
+a {
+    text-decoration: underline;
+    color: black;
+    font-family: avenir_lt_std95_black;
+
+}
+
+h4 {
+    text-decoration: none;
+    color: black;
+    font-family: avenir_lt_std95_black;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+
+.footer-col a {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.content {
+    height: 80vh;
+    background: #ccc;
+}
+
+.footer-content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.footer-col {
+    display: inline-block;
+    padding: 0.5em 0.1em 0.5em 1em;
+    box-sizing: border-box;
+    border-right: solid 1px #bbb;
+}
+
+.footer-col:nth-child(4) {
+    border: none;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.flt {
+    float: left;
+}
+
+.flt:nth-child(4):after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 1em;
+    clear: both;
+}
+
+.large-25 {
+    width: 25%;
+}
+
+.footer-col a {
+    display: block;
+    margin: 0.3em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*media queries logo*/
 
 
