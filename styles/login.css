@@ -88,7 +88,7 @@ body {
     backdrop-filter: blur(5px);
     transform: translate(-50%, -50%);
     box-shadow: 0 0 20px rgba(120, 119, 124, 0.6);
-    background-color: rgb(236, 38, 38);
+    background-color: rgb(179, 177, 177);
 }
 
 form * {

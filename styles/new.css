@@ -187,13 +187,6 @@ a {
 
 
 #search-container {
-
-
-
-
-
-
-
     position: relative;
     height: 52px;
     max-width: 800px;
@@ -218,10 +211,6 @@ a {
     border-radius: 20px;
     height: 52px;
     max-width: 800px;
-
-
-
-
 
 }
 
@@ -261,7 +250,7 @@ a {
 
 
 
-
+/*aanbevolen activiteiten section*/
 
 h1 {
     text-align: center;
@@ -307,6 +296,7 @@ h1 {
     background-color: rgb(204, 204, 204);
     border: none;
     font-size: 16px;
+    font-weight: lighter;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.5s;
@@ -321,13 +311,17 @@ h1 {
 
 
 
-/* end slider aanbevelingen*/
+/* end aanbevolen activiteiten*/
 
 
 
 
 /* rsponsive cards gelezen boeken*/
 
+
+p {
+    font-weight: lighter;
+}
 
 .card-container {
 
@@ -457,43 +451,6 @@ button {
     width: 100px;
 
 }
-
-/* slider-container recente activiteiten*/
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    float: left;
-    width: 20%;
-    margin-bottom: 10%;
-
-
-
-
-}
-
-.flex-box {
-    width: 100px;
-    height: 200px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid grey;
-    margin-left: 100%;
-    margin-right: -50%;
-
-
-}
-
-@media (min-width: 600px) {
-    .flex-box {
-        width: 50%;
-    }
-}
-
-/* end slider*/
 
 
 /*media queries logo*/
