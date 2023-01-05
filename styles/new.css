@@ -485,7 +485,8 @@ h4 {
 
 .footer-content-wrapper {
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 25%;
+
 
 
 }
@@ -522,8 +523,8 @@ h4 {
 }
 
 .footer-col a {
-    display: block;
-    margin: 0.3em 0;
+    display: flex;
+
 }
 
 
