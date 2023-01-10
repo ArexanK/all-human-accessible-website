@@ -38,7 +38,7 @@ Door middel van aanbevelingen op basis van het leesgedrag van leden of activitei
 
 
 ## ⭐️Bronnen
-
+(https://arexank.github.io/all-human-accessible-website/)
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
