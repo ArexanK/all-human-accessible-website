@@ -1,19 +1,19 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# 📝Opdracht
+Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen. 
+Userstory 12: De OBA leden willen graag een persoonlijke boekentips krijgen zodat ze worden gestimuleerd om meer te lezen.
 
-## Inhoudsopgave
+## 🖇Beschrijving
+Door middel van aanbevelingen op basis van het leesgedrag van leden of activiteiten die ze hebben bezocht kunnen zij via hun persoonlijke bibliotheek pagina of app hun lees en kijkgeschiedenis bijhouden en nieuwe aanbevelingen ontvangen. Dit kan leden helpen om nieuwe boeken of andere media te ontdekken die aansluiten bij hun interesses en behoeften.
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## 👥Website en Toegankelijkheid
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<img width="1314" alt="Screenshot 2023-01-08 at 12 21 17" src="https://user-images.githubusercontent.com/94745953/211211760-a38e82f7-e156-44a8-a692-b9b928aed286.png">
+
+
+
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
