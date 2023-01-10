@@ -15,12 +15,29 @@ Door middel van aanbevelingen op basis van het leesgedrag van leden of activitei
 
 
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## 📌Kenmerken
+
+*HTML:
+- Header
+- Alt text
+- Aria Labels
+- Tab Index
+- Buttons
 
 
+*CSS:
 
-## Bronnen
+- Nav toggle
+- media queries
+- font - Avenir
+- kleur
+
+*JS:
+- AddEventListener
+- QuerySelectorAll
+
+
+## ⭐️Bronnen
 
 ## Licentie
 
